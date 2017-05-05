@@ -57,6 +57,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button callButton = (Button) findViewById(R.id.playerInsert_callButton);
+        callButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentPlayerInsert = new Intent(MainActivity.this,
+                        phoneActivity.class);
+                startActivity(intentPlayerInsert);
+            }
+        });
+
         registerForContextMenu(PlayerListView);
     }
 
@@ -133,12 +143,6 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-     //   SendStudentsTask  send = (SendStudentsTask) new SendStudentsTask(this).execute();
-
-        return super.onOptionsItemSelected(item);
-    }
 
 
 

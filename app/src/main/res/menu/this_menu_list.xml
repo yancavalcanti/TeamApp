@@ -6,7 +6,7 @@
 
     <item
         android:id="@+id/PlayerList_MenuFoneOK"
-        android:title="Enviar Notas"
+        android:title="Ligar para a Federação"
         android:icon="@drawable/ic_phone"
         android:orderInCategory="100"
         app:showAsAction="always" />

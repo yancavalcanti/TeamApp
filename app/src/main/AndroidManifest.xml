@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.yan.teamapp">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -27,6 +28,10 @@
         <activity
             android:name=".PlayerAdd"
             android:label="Adicionar Jogador">
+        </activity>
+        <activity
+            android:name=".phoneActivity"
+            android:label="Ligar para Federação">
         </activity>
     </application>
 

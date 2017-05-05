@@ -17,6 +17,20 @@
         </ListView>
 
     <Button
+        android:id="@+id/playerInsert_callButton"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:elevation="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="86dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/ic_phone" />
+
+    <Button
         android:id="@+id/playerInsert_buttonNew"
         android:layout_width="56dp"
         android:layout_height="56dp"
@@ -29,6 +43,5 @@
         android:layout_marginBottom="16dp"
         android:layout_marginRight="16dp"
         android:background="@drawable/this_background_button" />
-
 
 </RelativeLayout >
