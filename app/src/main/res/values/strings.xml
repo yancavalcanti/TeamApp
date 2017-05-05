@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TeamApp</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="positions">
+        <item>Goleiro</item>
+        <item>Lateral Direito</item>
+        <item>Zagueiro</item>
+        <item>Lateral Esquerdo</item>
+        <item>Volante</item>
+        <item>Meia</item>
+        <item>Atacante</item>
+        <item>Técnico</item>
+    </string-array>
+
+</resources>

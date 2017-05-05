@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.yan.teamapp.PlayerAdd"
+        tools:showIn="@layout/activity_player_insert">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#00A8EC"
+                app:srcCompat="@drawable/person" />
+
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/botaoCamera"
+                android:layout_gravity="right"
+                android:clickable="true"
+                app:fabSize="mini"
+                android:layout_marginRight="16dp"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                app:srcCompat="@drawable/ic_camera"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="169dp" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/playersInsert_editTextName"
+            android:hint="Nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/playersInsert_SpinnerPosition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/playersInsert_editTextNumber"
+            android:hint="Número"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>
